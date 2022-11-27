@@ -1,3 +1,5 @@
-﻿int numberA = 9;
-int numberB = 3;
-Console.WriteLine(numberA / numberB);
+﻿int numberA = new Random().Next(-10, 10);
+Console.WriteLine(numberA);
+int numberB = new Random().Next(-10, 10);
+Console.WriteLine(numberB);
+Console.WriteLine(numberA + numberB);
