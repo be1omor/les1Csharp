@@ -1,4 +1,3 @@
-﻿Console.Write("Введите имя: ");
-string username = Console.ReadLine();
-Console.Write("Привет, ");
-Console.Write(username);
+﻿int numberA = 9;
+int numberB = 3;
+Console.WriteLine(numberA / numberB);
