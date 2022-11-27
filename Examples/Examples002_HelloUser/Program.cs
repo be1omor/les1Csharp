@@ -1,5 +1,12 @@
-﻿int numberA = new Random().Next(-10, 10);
-Console.WriteLine(numberA);
-int numberB = new Random().Next(-10, 10);
-Console.WriteLine(numberB);
-Console.WriteLine(numberA + numberB);
+﻿Console.Write("Who is your name? ");
+string username = Console.ReadLine();
+
+if(username == "Jo")
+{
+    Console.WriteLine("Hi Jo");
+}
+else
+{
+    Console.Write("Fuck you ");
+    Console.WriteLine(username);
+}
